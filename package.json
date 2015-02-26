@@ -1,0 +1,17 @@
+{
+  "name": "gitrip",
+  "version": "1.0.0",
+  "description": "node script to clone all public repos from a user",
+  "dependencies": {
+    "commander": "1.1.1",
+    "node-status": "^0.1.4",
+    "request": "2.11.4"
+  },
+  "engines": {
+    "node": "> 0.8.0"
+  },
+  "bin": {
+    "getRepos": "./getRepos",
+    "gitrip": "./getRepos"
+  }
+}
