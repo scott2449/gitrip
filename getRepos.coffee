@@ -3,7 +3,7 @@
 program
   .version('1.1.0')
   .usage('[user/org] [options]')
-  .option('--no-progress', 'disable the progress bar')
+  #.option('--no-progress', 'disable the progress bar')
   .option('--ssh', 'use ssh support instead of http')
 
 program
@@ -11,7 +11,6 @@ program
   .action((user) ->
 
     allRepos = []
-    pageNum = 2
 
     options =
       timeout: 5000
